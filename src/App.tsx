@@ -1,3 +1,4 @@
+import joyjitImage from "./assets/joyjit.jpg";
 import { motion } from "motion/react";
 import {
   ArrowUpRight,
@@ -134,7 +135,7 @@ function Mark() {
   return (
     <div className="relative h-9 w-9 overflow-hidden rounded-full shadow-[0_0_30px_rgba(255,255,255,.22)]">
       <img
-        src="/joyjit.jpg"
+        src={joyjitImage}
         alt="Joyjit Das"
         className="h-full w-full object-cover"
       />
@@ -278,7 +279,7 @@ function App() {
               <div className="border-b border-white/10 p-6 md:border-b-0 md:border-r md:p-8">
                 <div className="h-28 w-28 overflow-hidden rounded-3xl shadow-[0_20px_70px_rgba(37,99,235,.32)]">
                   <img
-                    src="/joyjit.jpg"
+                    src={joyjitImage}
                     alt="Joyjit Das"
                     className="h-full w-full object-cover"
                   />
