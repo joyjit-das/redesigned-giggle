@@ -134,7 +134,7 @@ function Mark() {
   return (
     <div className="relative h-9 w-9 overflow-hidden rounded-full shadow-[0_0_30px_rgba(255,255,255,.22)]">
       <img
-        src="/joyjit.jpg"
+        src="joyjit.jpg"
         alt="Joyjit Das"
         className="h-full w-full object-cover"
       />
